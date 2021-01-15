@@ -4,3 +4,7 @@ coverage/
 node_modules/
 npm-debug.log
 package-lock.json
+
+# Parcel-bundler specific #
+.cache/
+dist/
