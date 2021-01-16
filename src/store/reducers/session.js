@@ -18,12 +18,12 @@ const sessionReducer = (state = DEFAULT_STATE, action = {}) => {
         isLoggedIn: false
       }
   }
-  return status
+  return state
 }
 
 
 
-export default sessionReducer
+export default sessionReducer;
 
 // Action creators
 export const loginUser = () => {
